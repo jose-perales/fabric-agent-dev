@@ -1,0 +1,10 @@
+name: fabric-agent-dev
+version: 0.1.0
+description: Reusable skills for framing, designing, building, and delivering Fabric solutions
+targets:
+  - copilot
+dependencies:
+  apm: []
+  mcp: []
+includes: auto
+scripts: {}

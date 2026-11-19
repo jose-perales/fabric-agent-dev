@@ -1,0 +1,197 @@
+lockfile_version: '1'
+dependencies: []
+deployments:
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/build-fabric-cicd-gitops
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: null
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/build-fabric-cicd-gitops/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:999b7621b7eed8638ba8a7a079949c6ef6b65291b80fa785891eb28e97616d3a
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/build-fabric-cicd-gitops/assets/fabric-delivery.template.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:34baf33415d7685f76e14a6ed232157d3b9168e6d55b27c307f72c00311ed0ca
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/build-fabric-specs
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: null
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/build-fabric-specs/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:d49a8c6687b7c4d099413868b135b4dc7efddc16e27b88aed1d60545087b4a3d
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/build-fabric-specs/assets/fabric-spec.template.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:561422395c9ff575bb690895fa3960a80b62aff2bda7a57cafe1277dc0ea897d
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/data-value-frame
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: null
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/data-value-frame/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:5d9da21e58588677b38e04b73fc8dfa95ef102acaa3ed7e6cdeeeb9a88bb9748
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/data-value-frame/assets/value-frame.template.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:b74f146cafc1ea64e638d7072e992f502b363d7aa9f11476d3e5b60acbeb84a5
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/implement-fabric-specs
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: null
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/implement-fabric-specs/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:41c2dadb6f64fe32a73a55daaff9d45baa925d4b9a9920a7df33ce720e45b5c6
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/implement-fabric-specs/assets/implementation-record.template.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:646521b14741b25860cc7c5307681c87cb7dc27942e40139640eacb238cd1de0
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/repo-fabric-setup
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: null
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/repo-fabric-setup/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:11eef20365ed7db3373779acae1632bdbb7248177cda735086ebb300312ed618
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/repo-fabric-setup/assets/fabric-setup.template.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:9ab4db65e22fae549cb20cdd1c324f0281f0b56a4547dc698931883ff9957785
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/solution-arch-docs
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: null
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/solution-arch-docs/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:fcc151803d6a8f2e3d41a0dadcd27388a6b7fe1e2135a3ad5bf443c4b83007ae
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/solution-arch-docs/assets/solution-architecture.template.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:762e165a870521a902245903700fc7d100020a3407ec61f4f43e15d43eb38da6
+local_deployed_files:
+- .agents/skills/build-fabric-cicd-gitops
+- .agents/skills/build-fabric-cicd-gitops/SKILL.md
+- .agents/skills/build-fabric-cicd-gitops/assets/fabric-delivery.template.md
+- .agents/skills/build-fabric-specs
+- .agents/skills/build-fabric-specs/SKILL.md
+- .agents/skills/build-fabric-specs/assets/fabric-spec.template.md
+- .agents/skills/data-value-frame
+- .agents/skills/data-value-frame/SKILL.md
+- .agents/skills/data-value-frame/assets/value-frame.template.md
+- .agents/skills/implement-fabric-specs
+- .agents/skills/implement-fabric-specs/SKILL.md
+- .agents/skills/implement-fabric-specs/assets/implementation-record.template.md
+- .agents/skills/repo-fabric-setup
+- .agents/skills/repo-fabric-setup/SKILL.md
+- .agents/skills/repo-fabric-setup/assets/fabric-setup.template.md
+- .agents/skills/solution-arch-docs
+- .agents/skills/solution-arch-docs/SKILL.md
+- .agents/skills/solution-arch-docs/assets/solution-architecture.template.md
+local_deployed_file_hashes:
+  .agents/skills/build-fabric-cicd-gitops/SKILL.md: sha256:999b7621b7eed8638ba8a7a079949c6ef6b65291b80fa785891eb28e97616d3a
+  .agents/skills/build-fabric-cicd-gitops/assets/fabric-delivery.template.md: sha256:34baf33415d7685f76e14a6ed232157d3b9168e6d55b27c307f72c00311ed0ca
+  .agents/skills/build-fabric-specs/SKILL.md: sha256:d49a8c6687b7c4d099413868b135b4dc7efddc16e27b88aed1d60545087b4a3d
+  .agents/skills/build-fabric-specs/assets/fabric-spec.template.md: sha256:561422395c9ff575bb690895fa3960a80b62aff2bda7a57cafe1277dc0ea897d
+  .agents/skills/data-value-frame/SKILL.md: sha256:5d9da21e58588677b38e04b73fc8dfa95ef102acaa3ed7e6cdeeeb9a88bb9748
+  .agents/skills/data-value-frame/assets/value-frame.template.md: sha256:b74f146cafc1ea64e638d7072e992f502b363d7aa9f11476d3e5b60acbeb84a5
+  .agents/skills/implement-fabric-specs/SKILL.md: sha256:41c2dadb6f64fe32a73a55daaff9d45baa925d4b9a9920a7df33ce720e45b5c6
+  .agents/skills/implement-fabric-specs/assets/implementation-record.template.md: sha256:646521b14741b25860cc7c5307681c87cb7dc27942e40139640eacb238cd1de0
+  .agents/skills/repo-fabric-setup/SKILL.md: sha256:11eef20365ed7db3373779acae1632bdbb7248177cda735086ebb300312ed618
+  .agents/skills/repo-fabric-setup/assets/fabric-setup.template.md: sha256:9ab4db65e22fae549cb20cdd1c324f0281f0b56a4547dc698931883ff9957785
+  .agents/skills/solution-arch-docs/SKILL.md: sha256:fcc151803d6a8f2e3d41a0dadcd27388a6b7fe1e2135a3ad5bf443c4b83007ae
+  .agents/skills/solution-arch-docs/assets/solution-architecture.template.md: sha256:762e165a870521a902245903700fc7d100020a3407ec61f4f43e15d43eb38da6
